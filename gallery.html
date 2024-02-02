@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الأعمال</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style-gallery.css">
+</head>
+<body>
+    <main>
+        <div class="cent-vh">
+            <section id="header">
+                <div id="branding" style="flex-grow: 8">
+                    <h1><a href="index.html"><i class="fa fa-user-circle"></i>صفحة <span class="highlight">طالب</span></a></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class=""><a href="index.html">الرئيسية</a></li>
+                        <li class="current"><a href="gallery.html">معرض الأعمال</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="slider">
+                <div id="wrapper">
+                    <div class="content active">
+                        <img src="/images/02.png" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="/images/03.png" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="/images/04.png" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="/images/05.png" alt="">
+                    </div>
+                </div>
+                <div id="navLinks">
+                    <ul>
+                        <li class="itemLinks active" data-pos="0"></li>
+                        <li class="itemLinks" data-pos="1"></li>
+                        <li class="itemLinks" data-pos="2"></li>
+                        <li class="itemLinks" data-pos="3"></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- Start Footer -->
+    <section id="footer">
+        <p>الصفحة الشخصية لإسم المسجل &copy;<span id="currentYear"></span></p>
+    </section>
+    <!-- End Footer -->
+
+    <script src="js/master-gallery.js"></script>
+</body>
+</html>
